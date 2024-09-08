@@ -26,3 +26,13 @@ BUILD_FINGERPRINT := "motorola/cebu_retail/cebu:11/RZCS31.Q2-57-12-14/3d8395:use
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=cebu_retail \
     PRIVATE_BUILD_DESC="cebu_retail-user 11 RZCS31.Q2-57-12-14 3d8395 release-keys"
+
+# RisingOS Flags
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 662" \
+    RISING_MAINTAINER="Fazwalrus"
+RISING_PACKAGE_TYPE := GAPPS
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+PRODUCT_NO_CAMERA := false
